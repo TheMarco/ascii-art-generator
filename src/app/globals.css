@@ -24,3 +24,49 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Custom slider styles - Adobe dark theme */
+.slider {
+  background: #3d3d3d;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #5a9fd4;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+  background: #6eb5e8;
+  transform: scale(1.15);
+}
+
+.slider::-moz-range-thumb {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: #5a9fd4;
+  cursor: pointer;
+  border: none;
+  transition: all 0.15s ease;
+}
+
+.slider::-moz-range-thumb:hover {
+  background: #6eb5e8;
+  transform: scale(1.15);
+}
+
+.slider::-webkit-slider-track {
+  background: #3d3d3d;
+  border-radius: 2px;
+}
+
+.slider::-moz-range-track {
+  background: #3d3d3d;
+  border-radius: 2px;
+}
